@@ -1,0 +1,30 @@
+//
+//  FunnyTimePrefixHeader.pch
+//  FunnyTime
+//
+//  Created by luxt on 15/9/19.
+//  Copyright (c) 2015年 luxt. All rights reserved.
+//
+
+#ifndef FunnyTime_FunnyTimePrefixHeader_pch
+#define FunnyTime_FunnyTimePrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+///Users/lanou3g/Desktop/BProject/FunnyTimeProject/FunnyTime/FunnyTime/Macro/FunnyTimePrefixHeader.pch
+
+/*
+ 
+ AppHeader（宏定义，例如 kWhite [UIColor whiteColor]）
+ IMPHeader（头文件，例如Person.h）
+ KeyHeader（第三方平台的key宏定义）
+ UrlHeader（我们的接口数据宏）
+
+ */
+
+#import "AppHeader.h"
+#import "IMPHeader.h"
+#import "KeyHeader.h"
+#import "URLHeader.h"
+
+#endif
